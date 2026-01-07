@@ -1,0 +1,43 @@
+{
+  "position": "bottom",
+  "reload_style_on_change": true,
+  "layer": "top",
+  "custom/separator": {
+    "format": "::",
+    "interval": "once",
+    "tooltip": false
+  },
+  "modules-left": [
+    "sway/workspaces",
+    "sway/mode"
+  ],
+  "modules-right": [
+    "tray",
+    "custom/separator",
+    "pulseaudio",
+    "custom/separator",
+    "battery",
+    "custom/separator",
+    "clock"
+  ],
+  "sway/window": {
+    "max-length": 50
+  },
+  "tray": {
+    "tooltip": false
+  },
+  "battery": {
+    "format": "{capacity}",
+    "tooltip": false
+  },
+  "pulseaudio": {
+    "scroll-step": 5,
+    "format": "{volume}",
+    "format-muted": "x",
+    "on-click": "pavucontrol",
+    "tooltip": false
+  },
+  "clock": {
+    "format": "{:%H:%M}"
+  }
+}

@@ -1,0 +1,9 @@
+[user]
+    name = Yaâkoub Saouti
+    email = yaakoubsaouti2001@gmail.com
+
+[init]
+    defaultBranch = main
+
+[advice]
+    initDefaultBranch = false

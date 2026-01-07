@@ -1,0 +1,16 @@
+# Font
+font-family = Iosevka Fixed
+font-size = 14
+adjust-cell-width = -5%
+
+# Theme
+theme = Gruvbox Dark Hard
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+adjust-box-thickness = -5%
+shell-integration-features = no-cursor
+
+# Miscellaneous
+confirm-close-surface = false
